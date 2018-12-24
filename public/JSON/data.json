@@ -1,0 +1,80 @@
+{
+    "componentType":"form",
+    "title":"Sign In Form",
+    "subTitle":"Fill in the fields to sign in",
+    "elements":[
+        {
+            "label":"First Name",
+            "element":"input",
+            "type":"text",
+            "required":"true",
+            "id":"firstName",
+            "class":"input-field",
+            "placeholder":"Enter your first name"
+        },
+        {
+            "label":"DOB",
+            "element":"input",
+            "type":"date",
+            "required":"true",
+            "id":"dob",
+            "class":"input-field",
+            "placeholder":"Enter your birth date"
+        },
+        {
+            "label":"Email",
+            "element":"input",
+            "type":"email",
+            "required":"true",
+            "id":"email",
+            "class":"input-field",
+            "placeholder":"Enter your email"
+        },{
+            "label":"Password",
+            "element":"input",
+            "type":"password",
+            "required":"true",
+            "id":"pwd",
+            "class":"input-field"
+        },{
+            "label":"Gender",
+            "element":"input-radio",
+            "type":"radio",
+            "name":"gender",
+            "value":["male","female"],
+            "class":"input-field"
+        },{
+            "label":"Subscribe to newsletters through",
+            "element":"input-check",
+            "type":"checkbox",
+            "name":"newsletter",
+            "value":["mail","message"],
+            "class":"input-field"
+        },{
+            "label":"Address",
+            "element":"textarea",
+            "type":"textarea",
+            "id":"addr",
+            "class":"input-field"
+        },{
+            "label":"Country",
+            "element":"select",
+            "type":"select",
+            "id":"country",
+            "class":"input-field",
+            "value":["Canada","US"]
+        },{
+            "label":"Submit Form",
+            "element":"button",
+            "type":"submit",
+            "id":"submit",
+            "class":"btn-primary"
+        },{
+            "label":"Reset Form",
+            "element":"button",
+            "type":"reset",
+            "id":"reset",
+            "class":"btn-default"
+        }
+    ]
+}
